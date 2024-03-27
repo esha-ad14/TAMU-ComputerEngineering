@@ -1,0 +1,12 @@
+(define (BetweenNums lower mid upper)
+  (cond
+   ((and (< lower mid) (< mid upper)) #t)
+   (else #f)
+  )
+)
+(define (main)
+  (display (BetweenNums 1 2 3))
+  (newline)
+  (display (BetweenNums 3 1 4))
+)
+(main)
