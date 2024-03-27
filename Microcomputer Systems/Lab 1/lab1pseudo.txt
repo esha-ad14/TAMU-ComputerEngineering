@@ -1,0 +1,24 @@
+1)Not Pressed - TL2 Green
+2)Press Button - TL2 Blue >> (Blink x3) >> TL2 Red
+3)Once TL2 Red >> TL1 Green >> Countdown (9 to 0)
+4)When Countdown 4, TL1 Blue (Flashes until 0)
+5)When Countdown 0, TL1 Red, TL2 Green
+6)When button pressed, 20 second cooldown before next press
+
+#--------------------
+9-14 MAPPING
+#2 Red1
+#3 Green
+#4 Blue1
+
+#17 Red2
+#22 Blue2
+#27 Green2
+
+#14 Top
+#15 Top/Dot
+#16 Bot/Opp
+#18 Bot/Dot
+#20 Top/Opp
+#21 Mid
+#23 Bot
