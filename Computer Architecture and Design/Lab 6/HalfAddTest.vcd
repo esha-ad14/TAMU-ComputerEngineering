@@ -1,0 +1,138 @@
+$date
+	Wed Mar 24 02:53:56 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module HalfAddTest_v $end
+$var wire 1 ! Sum $end
+$var wire 1 " Cout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 8 % passed [7:0] $end
+$scope module dut $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 ! Sum $end
+$var wire 1 " Cout $end
+$var wire 1 & ABnotB $end
+$var wire 1 ' ABnotA $end
+$var wire 1 ( ABnot $end
+$scope module nand0 $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 ( Y $end
+$var wire 1 ) Yd $end
+$upscope $end
+$scope module nand11S $end
+$var wire 1 # A $end
+$var wire 1 ( B $end
+$var wire 1 ' Y $end
+$var wire 1 * Yd $end
+$upscope $end
+$scope module nand12S $end
+$var wire 1 $ A $end
+$var wire 1 ( B $end
+$var wire 1 & Y $end
+$var wire 1 + Yd $end
+$upscope $end
+$scope module nand1C $end
+$var wire 1 ( A $end
+$var wire 1 ( B $end
+$var wire 1 " Y $end
+$var wire 1 , Yd $end
+$upscope $end
+$scope module nand2S $end
+$var wire 1 & A $end
+$var wire 1 ' B $end
+$var wire 1 ! Y $end
+$var wire 1 - Yd $end
+$upscope $end
+$upscope $end
+$scope task allPassed $end
+$var reg 8 . numTests [7:0] $end
+$var reg 8 / passed [7:0] $end
+$upscope $end
+$scope task passTest $end
+$var reg 2 0 actualOut [1:0] $end
+$var reg 2 1 expectedOut [1:0] $end
+$var reg 8 2 passed [7:0] $end
+$var reg 121 3 testType [120:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+1-
+1,
+0+
+0*
+0)
+1(
+1'
+1&
+b0 %
+0$
+0#
+0"
+0!
+$end
+#100000
+b1 %
+b1 2
+b1100000010101100110000 3
+b0 1
+b0 0
+#190000
+1!
+0-
+0&
+1+
+1$
+#200000
+b10 %
+b10 2
+b1100000010101100110001 3
+b1 1
+b1 0
+#290000
+1&
+0'
+0+
+1*
+0$
+1#
+#300000
+b11 %
+b11 2
+b1100010010101100110000 3
+#390000
+0!
+1-
+1'
+1"
+0*
+0,
+0(
+1&
+1)
+0+
+1$
+#400000
+b100 %
+b100 2
+b1100010010101100110001 3
+b10 1
+b10 0
+#490000
+b100 .
+b100 /
